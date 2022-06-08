@@ -55,30 +55,30 @@ const Ofis = () => {
                 </Centerend>
 
                 <Centerleftright>
-                    <Contend>
+                    <Contend1>
                         <Enddiv>
                           <End>
                             <Endimg src={Mask} alt="" />
                           </End>
                             <Endp>Rezidentlarning Nizomi</Endp>
                         </Enddiv>
-                      </Contend>
-                    <Contend>
+                      </Contend1>
+                    <Contend1>
                         <Enddiv>
                           <End>
                             <Endimg src={Mask} alt="" />
                           </End>
                             <Endp>Rezidentlarning Nizomi</Endp>
                         </Enddiv>
-                      </Contend>
-                    <Contend>
+                      </Contend1>
+                    <Contend1>
                         <Enddiv>
                           <End>
                             <Endimg src={Mask} alt="" />
                           </End>
                             <Endp>Rezidentlarning Nizomi</Endp>
                         </Enddiv>
-                      </Contend>
+                      </Contend1>
                 </Centerleftright>
            </ContcenterApp>
 

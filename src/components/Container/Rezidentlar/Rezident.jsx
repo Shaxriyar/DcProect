@@ -12,7 +12,9 @@ const Rezident = () => {
   return (
     <Container bg={phone}>
 
-        <Center>
+        <Center data-aos="zoom-out-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             <Onediv>
               <Divimg src={phone1} alt="" />
               <Divh2>IT mutaxassislari, murabbiylar va trekerlar uchun</Divh2>
@@ -31,13 +33,14 @@ const Rezident = () => {
         </Center>
 
          <Centerend>
-            <Centerleft>
-                  <Endh1 data-aos="fade-up"
-          data-aos-anchor-placement="bottom-bottom">Rezidentlari</Endh1>
+            <Centerleft data-aos="zoom-out-right" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                  <Endh1>Rezidentlari</Endh1>
                   <Endp>IT Parkning rezidentlari IT-kompaniyalar va IT oʻquv markazlar bo'lib, ular bir qator muhim afzalliklarga ega boʻlishlari mumkin. Bularga quyidagilar kiradi:</Endp>
               </Centerleft>
 
-              <Centerright>
+              <Centerright data-aos="zoom-in-left" data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000">
                   <Rightimg src={phone4} alt="" />
               </Centerright>
          </Centerend>

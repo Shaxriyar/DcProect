@@ -24,6 +24,13 @@ export const Contcenter = styled.div`
   cursor: pointer;
   padding: 0 20%;
   margin-bottom: 0rem;
+  transition: 3s;
+
+  &:hover{
+    transform: rotateX(360deg);
+    cursor: pointer;
+    color: aquamarine;
+  }
 
 
   @media screen  and (max-width:900px) {
@@ -115,7 +122,7 @@ export const Centerimg = styled.img`
 `
 
 export const ContcenterApp = styled.div`
-width: 70%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -148,7 +155,7 @@ export const Centerimg4 = styled.img`
 `
 export const Contend = styled.div`
   position: relative;
-  width: 30%;
+  width: 250px;
   height: 120px;
   background: rgba(108, 99, 255, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -160,15 +167,16 @@ export const Contend = styled.div`
   @media screen  and (max-width:1120px) {
      margin-top: 20px;
   }
-  @media screen  and (max-width:900px) {
+  /* @media screen  and (max-width:900px) {
      margin-top: 20px;
      width: 50%;
-  }
+  } */
 `
 export const Contend1 = styled.div`
   position: relative;
   width: 250px;
   height: 120px;
+  margin: 0 20px;
   background: rgba(108, 99, 255, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 5px;
@@ -216,9 +224,11 @@ export const End = styled.div`
 `
 export const Centerend = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-bottom: 0rem;
+  margin-top: 10rem;
+
 
   @media screen  and (max-width:1237px) {
     margin-bottom: 3rem;
@@ -235,9 +245,9 @@ export const Centerend = styled.div`
 `
 export const Centerleftright = styled.div`
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
    align-items: center;
-   margin-top: 2rem;
+   margin: 40px;
    cursor: pointer;
 
    @media screen  and (max-width:1243px) {

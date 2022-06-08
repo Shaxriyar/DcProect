@@ -34,10 +34,6 @@ export const Centerright = styled.div`
     color: aquamarine;
   }
 
-   /* @media screen  and (max-width:1440px) {
-    right: 10rem;
- } */
-
 `
 export const Centphone = styled(LocalPhoneIcon)`
 font-weight: 700;
@@ -52,27 +48,33 @@ export const Numberh1 = styled.h1`
   font-size: 30px;
   color: #d4d0d0 !important;
   margin: 0px 10px;
-
 `
 
 export const Center = styled.div`
- display: flex;
- justify-content: center;
- align-items: center;
- text-align: center;
- flex-direction: column;
- cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  cursor: pointer;
   box-sizing: border-box;
   width: 100%;
+  margin-bottom: 10rem;
 
-  @media screen  and (max-width:690px) {
-    transform: scale(0.9);
+  @media screen  and (max-width:695px) {
+    margin-bottom: 20rem;
   }
-  @media screen  and (max-width:560px) {
-    transform: scale(0.8);
+  @media screen  and (max-width:610px) {
+    transform:scale(0.9);
   }
-  @media screen  and (max-width:440px) {
-    transform: scale(0.7);
+  @media screen  and (max-width:460px) {
+    transform:scale(0.8);
+  }
+  @media screen  and (max-width:383px) {
+    transform:scale(0.7);
+  }
+  @media screen  and (max-width:347px) {
+    transform:scale(0.6);
   }
 `
 export const Texdiv = styled.div`
@@ -80,28 +82,17 @@ export const Texdiv = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: -6.0rem;
+  margin-top: 0rem;
   word-break: break-all;
   width: 100%;
 
-  @media screen  and (max-width:1370px) {
+  /* @media screen  and (max-width:1370px) {
     transform: scale(0.9);
   }
   @media screen  and (max-width:1250px) {
     transform: scale(0.8);
      margin-top: -8.0rem;
-  }
-  @media screen  and (max-width:714px) {
-    transform: scale(0.7);
-     margin-top: -9.0rem;
-  }
-  @media screen  and (max-width:526px) {
-     margin-top: -8.50rem;
-  }
-  @media screen  and (max-width:428px) {
-    transform: scale(0.6);
-    margin-top: -8.50rem;
-  }
+  } */
 `
 export const Texnoparkdiv = styled.div`
   display: flex;
@@ -111,31 +102,31 @@ export const Texnoparkdiv = styled.div`
   width: 100%;
   height: 174px;
   left: 0rem;
-  top: 0px;
+  top: 7rem;
   font-weight: 700;
-  font-size: 111.724px;
+  font-size: 141.724px;
   color: rgba(255, 255, 255, 0.04);
   display: flex;
   align-items: center;
 
-  @media screen  and (max-width:834px) {
+  @media screen  and (max-width:1503px) {
     text-align: center;
-    font-size: 80px;
+    font-size: 100.724px;
   }
-  @media screen  and (max-width:634px) {
-    text-align: center;
-    font-size: 60px;
+  @media screen  and (max-width:553px) {
+    top: 6.50rem;
+    font-size: 80.724px;
   }
-  @media screen  and (max-width:434px) {
+  /* @media screen  and (max-width:434px) {
     font-size: 40px;
-  }
+  } */
 
 `
 
 export const H3 = styled.h3`
  position: relative;
  font-weight: 700;
- font-size: 32px;
+ font-size: 45px;
  color: #ffffff;
  word-break: break-all;
 
@@ -145,12 +136,18 @@ export const H3 = styled.h3`
     transition: all 0.5s;
     }
 
-    @media screen  and (max-width:434px) {
+  @media screen  and (max-width:780px) {
+    font-size: 40px;
+  }
+  @media screen  and (max-width:560px) {
+    font-size: 35px;
+  }
+  @media screen  and (max-width:553px) {
     font-size: 30px;
   }
 
 `
-export const H1 = styled.h2`
+export const H1 = styled.h1`
   font-weight: 700;
   font-size: 70px;
   color: #ffffff;
@@ -163,24 +160,17 @@ export const H1 = styled.h2`
     transition: all 0.5s;
     }
 
-    @media screen  and (max-width:822px) {
-      transform: scale(0.8);
-      width: 800px;
-      font-size: 70px;
-  }
-
-  @media screen  and (max-width:434px) {
-    font-size: 55px;
+    @media screen  and (max-width:533px) {
+     font-size: 60px;
   }
 `
 export const Hp = styled.p`
   text-align: center;
- font-weight: 700;
+  font-weight: 700;
   font-size: 60px;
   color: #ffffff;
   margin-top: 20px;
   word-break: break-all;
-  width: 100%;
 
    &:hover{
     transform: scale(1.1);
@@ -188,25 +178,16 @@ export const Hp = styled.p`
     transition: all 0.5s;
   }
 
-  @media screen  and (max-width:1160px) {
-    transform: scale(0.8);
+  @media screen  and (max-width:1390px) {
      width: 800px;
-     font-size: 60px;
   }
-  @media screen  and (max-width:638px) {
-    transform: scale(0.8);
-     width: 675px;
+  @media screen  and (max-width:987px) {
+     width: 600px;
+  }
+  @media screen  and (max-width:533px) {
+     width: 500px;
      font-size: 50px;
   }
-  @media screen  and (max-width:526px) {
-    font-size: 40px;
-    width: 520px;
-  }
-  @media screen  and (max-width:434px) {
-    font-size: 30px;
-    width: 400px;
-  }
-
 `
 
 export const Centerleft = styled.div`
@@ -216,6 +197,9 @@ left: 20px;
 
 @media screen  and (max-width:1440px) {
     left: 2rem;
+}
+@media screen  and (max-width:800px) {
+    display: none;
 }
 
 `

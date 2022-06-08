@@ -29,16 +29,17 @@ export const Centertop = styled.div`
 
 `
 export const Topimg= styled.img`
-  width: 50%;
+  width: 570px;
+  height: 325px;
   margin-left: 2rem;
-  
+
    @media screen  and (max-width:1166px) {
     width:60%
   }
  `
 export const Topp = styled.p`
   width: 350px;
-  font-size: 20px;
+  font-size: 24px;
   color: #FFFFFF;
   margin-left: 5rem;
   line-height: 28px;

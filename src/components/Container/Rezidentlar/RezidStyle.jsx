@@ -46,8 +46,10 @@ export const Onediv = styled.div`
   transition: all 1s;
 
   &:hover{
+    transform: scale(1.1);
     transition: all 1s;
     }
+
 
     @media screen  and (max-width:1101px) {
     transform: scale(0.9);
@@ -130,14 +132,11 @@ export const Threediv = styled.div`
   justify-content: start;
   transition: all 1s;
 
-&:hover{
-  transform: scale(1.1);
-  transition: all 1s;
-  }
+  &:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    }
 
-  @media screen  and (max-width:1101px) {
-    transform: scale(0.9);
-  }
 
 `
 export const Centerend = styled.div`

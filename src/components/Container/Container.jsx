@@ -21,7 +21,7 @@ const Contain = () => {
       <Jamoa />
       <Kovorking/>
       <Infratuzilma />
-      <Manzil />
+      {/* <Manzil /> */}
       {/* <Map /> */}
 
     </>
