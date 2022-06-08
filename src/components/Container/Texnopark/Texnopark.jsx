@@ -36,9 +36,9 @@ const Texnopark = () => {
                 TEXNOPARK
               </Texnoparkdiv >
                 <Texdiv>
-                  <H3>TEXNOPARKewfwefef</H3>
+                  <H3>TEXNOPARhgjhghghjhKewfwefef</H3>
                   <H1>Digital city</H1>
-                  <Hp>innovatsiyalarga bir qadam yaqinlashing</Hp>
+                  <Hp>innovatsiyalarga bir525285254825482582 qadam yaqinlashing</Hp>
                 </Texdiv>
             </Center>
 
